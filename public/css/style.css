@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0a1835;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+h2 {
+    color: #37074d;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #0a352c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
